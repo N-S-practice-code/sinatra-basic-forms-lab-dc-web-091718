@@ -5,7 +5,7 @@ class App < Sinatra::Base
     erb :index
   end
   
-  get "/new"
-  
-end
+  get "/new" do
+    erb 
+  end
 end
